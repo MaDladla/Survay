@@ -1,0 +1,223 @@
+body{
+    
+    position: relative;   
+   display: flex;
+   margin: 0;
+   padding: 0;
+   justify-content: center;
+   align-items: center;
+   background-image: url(../img/dashboard/photo-1.avif);
+   background-size: cover;
+   background-position: center center;
+   transform: translateZ(0);
+   will-change: transform;
+   /* height: 100vh; */
+   /* overflow-x: hidden; */
+}
+
+.bg
+{
+    position: absolute;
+    background-color: black;
+    width: 100vw;
+    /* height: 100vh; */
+    z-index: -5;/*Allows you to put the content on top of the form*/
+     opacity: 0.4;  
+}
+.form-container1
+{
+position: relative;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 0px;
+padding-top: 0;
+width: 80%;
+/* border-radius: 15px; */
+display: flex;
+flex-direction: column;
+/* justify-content: center;
+   align-items: center; */
+   color: white;
+  /* overflow: hidden;  */
+  height: auto;
+  margin-top: -60px;
+
+}
+.header1
+{
+position: absolute;
+width: 100%;
+padding: 10px;
+display: flex;
+justify-content: center;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.945);
+   top:0;  
+}
+.section1
+{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+}
+.content1
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+   align-items: center; */
+   width: 100%;
+
+}
+.row1
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+
+}
+.row1 input{
+    padding: 4px;
+border-radius: 20px;
+outline: 0;
+border: 0;
+width: 75%;
+padding-left: 15px;
+padding-right: 15px;
+}
+.row1 .right .short-input{
+
+    width: 40%;
+}
+.row1 input:focus
+{
+    outline:2px solid sandybrown ;
+}
+
+
+
+
+.row1 .left
+{
+    display: flex;
+
+width: 45%;
+position: relative;
+/* align-items: center; */
+
+}
+.row1 .right
+{
+width: 45%;
+/* align-items: center; */
+}
+.row1 .left span{
+
+    position: absolute;
+    right: 0;
+
+}
+
+
+
+.row1 .left span::after
+{
+    content:"*";
+    top: 0;
+    left: 0;
+    color: red;
+}
+.row1 .left span::after
+{
+    content:"*";
+    top: 0;
+    left: 0;
+    color: red;
+}
+
+
+
+.line1{
+
+    height: 1px;
+    width: 20%;
+    background-color: sandybrown;
+  
+    
+    margin-top: 5px;
+    
+    
+
+}
+
+h4{
+
+    margin-bottom: 0;
+    margin-top: 80px;
+    position: relative;
+    margin-left: 15px;
+    
+}
+.physical{
+
+    margin-top: 0;
+    
+}
+.footer{
+    width: 100%;
+   
+   
+}
+.next-btn{
+padding: 7px;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 30px;
+outline: 0;
+border: 1px solid sandybrown;
+box-shadow: 0 0.3rem 0.3rem rgb(0 0 0 / 40%);
+background: transparent;
+color: white;
+float: right;
+}
+.table{margin: 20px;
+margin-right: 30px;
+}
+    thead{
+
+        background-color: white;
+        color: black;
+    }
+    tbody{
+
+        color: white;
+    }
+    caption{
+        color: white;
+        font-size: 20px;
+    }
+    /* table{
+
+        margin-left: 80px;
+        margin-right: 80px;
+    } */
+    .marks-table{
+width: 600px;
+
+    }
+    .section1 button{
+
+        background-color: sandybrown;
+        border: 2px solid sandybrown;
+        border-radius: 10px;
+        height: 30px;
+    }
